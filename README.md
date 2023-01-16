@@ -38,3 +38,87 @@ The main findings of the code can be found at the post available [here](https://
 
 Must give credit to Stack Overflow for the data.  You can find the Licensing for the data and other descriptive information at the Kaggle link available [here](https://www.kaggle.com/stackoverflow/so-survey-2017/data).  Otherwise, feel free to use the code here as you would like! 
 
+
+
+
+
+
+***
+
+# Introduction 
+Give an introduction to purpose.
+
+# Project Folders
+Please see below a description of each of the folders of interest. The remaining folders are part of the environment setup only.
+
+### Functional                                                   
+- evc_functions:  
+- tests: Testing functionality.                        
+
+### Other                                               
+- data: Contains original and transformed datasets including once off transformation notebook.          
+- analysis: Analysis notebooks used for exploration and testing only.                                       
+
+
+# Getting Started
+This project uses remote development through [Windows Subsystem for Linux 2](https://docs.microsoft.com/en-us/windows/wsl/install), or running natively from Windows. The environment is controlled using `venv` and `pip` for package management.
+
+## Installation process
+In order to get the project up and running, open a terminal window and run the following commands:
+
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+## Testing
+Pytest is used to run the tests. Ensure the `vscode` testing extension is linked to pytest. 
+
+
+
+
+A README.md file that communicates the libraries used, the motivation for the project, the files in the repository with a small description of each, a summary of the results of the analysis, and necessary acknowledgments.
+Your code in a Jupyter notebook, with appropriate comments, analysis, and documentation.
+You may also provide any other necessary documentation you find necessary.
+For the blog post, pick a platform of your own choice. For example, it can be on your website, a Medium post (Josh's sample report on How Do YOU Become A Developer?), or a Github blog post. Your blog must provide the following:
+
+
+
+
+# Introduction 
+The Data Analytics (DA) Studies group is exploring the use of [Descartes Labs](https://www.descarteslabs.com/) as a software and/or data layer for satellite image processing pipelines.
+
+# Getting Started
+
+The notebooks will run in Descartes Labs [workbench](https://workbench.descarteslabs.com), 
+which is an example of a cloud hosted [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/). 
+
+If you are new to Descartes Labs then start with the **1_introduction** folder and
+work you way from there in order.
+
+# Local Installation
+
+To run this code locally you will need to install the dependencies. The official [Descartes Labs installation guide](https://docs.descarteslabs.com/installation.html) suggests using conda and pip.
+
+You can install conda from [here](https://docs.conda.io/en/latest/miniconda.html).
+
+Create a new python 3.8 virtual environment.
+
+`conda create -n my_env python=3.8`
+
+To activate this environment in Windows 
+
+`activate my_env`
+
+The following order is important. First install these packages using conda
+
+`conda install shapely matplotlib`
+
+Then install these packages using pip.
+
+`pip install descarteslabs nbstripout`
+
+Hopefully that all went well 🤞
+
+If so, you are all set
