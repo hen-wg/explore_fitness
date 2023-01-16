@@ -35,7 +35,7 @@ Please see below a description of each of the folders of interest. The remaining
 
 ## Results<a name="results"></a>
 
-The main findings from the analysis can be found at the post available on [Medium](https://medium.com/@josh_2774/how-do-you-become-a-developer-5ef1c1c68711).
+The main findings from the analysis can be found in the [analysis notebook](notebooks/2_Analysis.ipynb) and the post available on [Medium](https://medium.com/@josh_2774/how-do-you-become-a-developer-5ef1c1c68711).
 
 ## Installation <a name="installation"></a>
 
